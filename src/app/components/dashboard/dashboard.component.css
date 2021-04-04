@@ -1,0 +1,20 @@
+.dashboard {
+  background-color: white;
+}
+
+.sidebar-main {
+  height: 93vh;
+}
+
+.navbar {
+  height: 7vh;
+}
+
+.jsonfile {
+  border-left: 1px solid black;
+  margin-left: 2rem;
+}
+
+.btn-primary {
+  background-color: #9b59b6;
+}

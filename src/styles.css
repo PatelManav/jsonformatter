@@ -1,0 +1,90 @@
+body {
+  background-color: #34495e;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 20rem;
+  padding: 2rem;
+  position: relative;
+  background-color: white;
+}
+
+input,
+input:hover {
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
+  border-radius: 7%;
+  border: 1px solid black;
+}
+
+.formGroup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btnPrimary,
+.btnPrimary:hover {
+  background-color: #9b59b6;
+  color: white;
+  border: 1px solid #8e44ad;
+  margin: auto;
+}
+
+.googleBtn,
+.googleBtn:hover {
+  background-color: #e74c3c;
+  color: white;
+  border: 1px solid #c0392b;
+  margin: auto;
+}
+
+.forgotPassword > span {
+  color: #3498db;
+  cursor: pointer;
+  margin-top: 1.2rem;
+}
+
+.forgotPassword {
+  margin-top: 1.2rem;
+}
+
+.redirectToLogin {
+  position: absolute;
+  bottom: -1.5rem;
+  color: white;
+}
+
+span.redirect {
+  color: #3498db;
+  cursor: pointer;
+}
+
+.nav-item {
+  width: 80%;
+  margin: 2rem auto;
+  background-color: #9b59b6;
+  text-align: center;
+  border-radius: 8%;
+}
+
+.nav-item:hover,
+.active {
+  background-color: #8e44ad;
+}
+
+.nav-link {
+  color: white;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: white;
+}
